@@ -70,4 +70,35 @@ $
 
 ---
 
+## 3. Embedding
+### 3.1 Word embedding
+Embedding related to NN
 
+**Key word embedding methods**
+- Word2Vec
+- GloVe
+- Swivel
+- FastText
+- BERT (Google)
+- GPT (OpenAI)
+
+Method
+- CBoW
+For common word
+- Skip-Gram
+For rare word
+
+#### Key Innovations
+
+| Aspect               | CBOW / Skip-Gram                                      | BERT                                          | GPT                                      |
+|----------------------|------------------------------------------------------|----------------------------------------------|------------------------------------------|
+| **Handling Word Order** | Order-agnostic (CBOW); limited context sensitivity (Skip-Gram). | Handles full sentence structure with transformers. | Captures word order but only from left-to-right. |
+| **Model Architecture** | Shallow neural networks (efficient but limited). | Deep **transformer encoder** layers. | Deep **transformer decoder** layers. |
+| **Context Sensitivity** | Limited (local window). | Fully bidirectional and contextual. | Strong left-to-right sequential modeling. |
+
+### Vector Similarity Metrics
+**L2 distance**
+
+**Cosine Similarity**
+
+**Inner product**
